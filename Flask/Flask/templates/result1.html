@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Result 1</title>
+</head>
+<H2>
+    Final Results
+
+</H2>
+<body>
+<table border 2>
+    {%for key,value in results.items()  %}
+    <tr>
+        {# This is the comment section#}
+        <h1>{{key}}</h1>
+        <h2>{{value}} </h2>
+    </tr>
+    {% endfor%}
+</table>
+
+
+</body>
+</html>
